@@ -1,0 +1,36 @@
+# === Environment & cache ===
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# === Dataset & large training artifacts (regenerate dari dataset Kaggle) ===
+model2.2/dataset/
+model2.2/testdata/
+model2.2/trainResult/
+model2.2/nb_assets/
+model2.2/*.pkl
+model2.2/*.onnx
+
+# === Dev/debug scripts & output gambar (bukan bagian submission) ===
+model2.2/_*.py
+model2.2/debug*.py
+model2.2/test_api.py
+model2.2/*.png
+
+# === Flutter build artifacts & IDE ===
+fruit_freshness_app/.dart_tool/
+fruit_freshness_app/build/
+fruit_freshness_app/.flutter-plugins-dependencies
+fruit_freshness_app/.idea/
+fruit_freshness_app/*.iml
+fruit_freshness_app/assets/
+
+# === Laporan, referensi, panduan (bukan kode) ===
+*.pdf
+*.docx
+PAPER_*
+PANDUAN_*
+SKRIP_*
+comvisssss.ipynb
+memory/
